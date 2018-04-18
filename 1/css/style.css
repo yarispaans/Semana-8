@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+.row {
+  display: flex;
+}
+
+.column-1, .column-2 {
+  flex: 1;
+  border:3px solid black;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.row div img {
+  border: 100%;
+  width: 300px;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+}
+h3 {
+font-family: 'Open Sans', sans-serif;
+font-size: 51px;
+line-height: 85%;
+color: red;
+}
